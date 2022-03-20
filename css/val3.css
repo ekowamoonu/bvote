@@ -1,0 +1,165 @@
+html,body{margin:0;padding:0;overflow:hidden;}
+body{
+  background-image:url(../images/back.jpg);
+  background-size:100%;
+}
+
+/*styles for form*/
+#index_form{
+width:400px;
+height:490px;
+padding:20px;
+margin:80px auto;
+margin-bottom:0;
+border:1px solid red;
+border-radius:3px;
+font-family: 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+background-color:transparent;
+
+}
+
+#index_form h5{
+  padding:15px;
+  color:#656565;
+  margin:0;
+  text-align:center;
+  margin-bottom:10px;
+  background-color:;
+}
+
+#index_form input{
+  padding:10px;
+  width:375px;
+  border:1px solid #eee;
+  background-color:white;
+  color:red;
+  margin-bottom:10px;
+  border-radius:5px;
+}
+
+#index_form input[type="password"]{
+  height:30px;
+}
+#index_form input[type="password"]:hover{
+  border:1px solid rgb(14, 121, 100);
+}
+
+#index_form input[type="submit"]{
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    color:white;
+    font-size:15px;
+    text-shadow: 0 0 2px black;
+    height:50px;
+    border:1px solid transparent;
+    width:395px;
+
+}
+
+#index_form input[type="submit"]:hover{cursor:pointer;
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+
+}
+
+/*styles for footer*/
+footer{
+  height:20px;
+  width:250px;
+  margin:10px auto;
+  color:grey;
+  font-family:Calibri,sans-serif;
+  font-size:15px;
+}
+
+
+/*styles for buttons on homepage*/
+/*
+
+font-family: 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav a {
+  position: relative;
+  display: block;
+  outline: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+  text-decoration:none;
+}
+.index_nav  {
+  position: relative;
+  z-index: 1;
+}
+
+.index_nav a {
+  overflow: hidden;
+  margin: 10px 15px;
+}
+
+.index_nav a span {
+  display: block;
+  padding: 10px 20px;
+  background: #0f7c67;/*#008000;*/  /*
+  -webkit-transition: -webkit-transform 0.9s;
+  -moz-transition: -moz-transform 0.9s;
+  transition: transform 0.9s;
+}
+
+.index_nav a::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding: 10px 20px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #0f7c67;
+  content: attr(data-hover);
+  -webkit-transition: -webkit-transform 0.9s;
+  -moz-transition: -moz-transform 0.9s;
+  transition: transform 0.9s;
+  -webkit-transform: translateX(-25%);
+  -moz-transform: translateX(-25%);
+  -o-transform: translateX(-25%);
+  transform: translateX(-25%);
+}
+
+.index_nav a:hover span,
+.index_nav a:focus span {
+  color:white;
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.index_nav a:hover::before,
+.index_nav a:focus::before {
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  transform: translateX(0%);
+}
+*/

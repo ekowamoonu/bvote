@@ -1,0 +1,80 @@
+html,body{margin:0;padding:0;overflow:hidden;}
+body{
+ background-color:#20b45e;
+  -webkit-transition:0.5s ease;
+  -moz-transition:0.5s ease;
+  -o-transition:0.5s ease;
+  -ms-transition:0.5s ease;
+  transition:0.5s ease;
+}
+
+/*styles for form*/
+#index_form{
+width:500px;
+height:200px;
+padding:20px;
+margin:230px auto;
+margin-bottom:0;
+border-radius:6px;
+font-family: 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+background-color:white;/*#3e3c3c;*/
+
+}
+
+#index_form h5{
+  padding:15px;
+  color:black;
+  margin:0;
+  text-align:center;
+  margin-bottom:5px;
+}
+
+#index_form input{
+  padding:12px;
+  width:470px;
+  border:4px solid #eee;
+  background-color:white;
+  color:black;
+  margin-bottom:10px;
+  border-radius:5px;
+  margin-left:5px;
+  font-size:18px;
+}
+
+#index_form input[type="text"]:hover{
+  border:4px solid green;
+  -webkit-transition:0.3s ease;
+  -moz-transition:0.3s ease;
+  -ms-transition:0.3s ease;
+  -o-transition:0.3s ease;
+  transition:0.3s ease;
+}
+
+#loader{
+  width:200px;
+  height:200px;
+  float:left;
+  margin-left:218px;
+  
+}
+
+#loader span{
+  color:black;
+  font-family:Calibri,sans-serif;
+  font-size:15px;
+}
+
+.error_marker{
+  border:2px solid red;
+}
+
+/*styles for footer*/
+footer{
+  /*height:20px;*/
+  width:350px;
+  color:white;
+  margin:-5px auto;
+  font-family:Calibri,sans-serif;
+  font-size:20px;
+}
+

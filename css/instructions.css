@@ -1,0 +1,59 @@
+html,body{margin:0;padding:0;overflow:hidden;}
+body{background-image:url(../images/back.jpg);
+  background-size:100%;
+}
+
+
+/*styles for overall container*/
+#overall_container{
+  width:600px;
+  height:700px;
+  margin:0px auto;
+}
+
+#overall_container div{float:left;}
+
+#overall_container > a{
+  text-decoration: none;
+  font-family:Calibri,sans-serif;
+  font-size:18px;
+  padding:10px;
+  float:left;
+  display: block;
+  width:250px;
+  height:30px;
+  border-radius:4px;
+    margin-left:20px;
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    color:white;
+    text-shadow: 0 0 2px black;
+    border:1px solid transparent;
+  }
+
+#proceed_div{width:600px;}
+
+#instruction_set{
+  width:595px;
+  padding:10px;
+  height:375px;
+  background-color:rgba(0,0,0,0.7);
+  color:white;
+  font-family:Calibri,sans-serif;
+  font-size:20px;
+  border-radius: 7px;
+}
+
+/*styles for footer*/
+footer{
+  height:20px;
+  width:250px;
+  margin:10px auto;
+  color:grey;
+  font-family:Calibri,sans-serif;
+  font-size:15px;
+}
+

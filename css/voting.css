@@ -1,0 +1,107 @@
+
+body{
+  background-color:#20b45e;
+  -webkit-transition:0.5s linear;
+  -ms-transition:0.5s linear;
+  -o-transition:0.5s linear;
+  -moz-transition:0.5s linear;
+  transition:0.5s linear;
+}
+
+/*conainer*/
+.voting-container{
+  margin-top: 3%;
+ background-color:#053b1b;
+ padding:20px;
+ color:white;
+ border-radius: 10px;
+
+}
+
+.voting-container .row{
+  margin-bottom: 16px;
+}
+
+.profile-image{
+  max-height:250px;
+  overflow: hidden;
+}
+.candidate-details h4{
+  margin-top: 50px;
+}
+
+.btn-danger,.btn-success{
+  padding:10px;
+  width:200px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.check_image{
+  margin-top: 30px;
+}
+
+h4,h5{
+  font-size:20px;
+}
+
+.btn-primary{
+  padding:16px;
+  font-weight: bold;
+}
+
+.overlay-div{
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: rgba(255,255,255,0.9);
+  z-index:1;
+}
+
+.overlay-div img{
+  display:block;
+  margin:270px auto;
+}
+
+
+
+.check_image:hover{
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  -webkit-transition:0.4s ease;
+  -ms-transition:0.4s ease;
+  -o-transition:0.4s ease;
+  -moz-transition:0.4s ease;
+  transform:rotate(360deg);
+  transition:0.6s ease;
+
+}
+
+#overall_container div #image_div{
+float:left;
+width:200px;
+padding:5px;
+height:200px;
+margin-top:5px;
+background-color:grey;
+
+}
+
+.alert-div{
+  height:100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+ background-color:red;
+}
+
+.alert-div form{
+  width:200px;
+  margin:20% auto;
+}

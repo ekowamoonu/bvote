@@ -1,0 +1,283 @@
+html,body{margin:0;padding:0;overflow:hidden;}
+body{
+  background-color:#20b45e;
+  -webkit-transition:0.5s linear;
+  -ms-transition:0.5s linear;
+  -o-transition:0.5s linear;
+  -moz-transition:0.5s linear;
+  transition:0.5s linear;
+}
+
+
+.logout{
+  position:absolute;
+  background-color:red;
+  color:white;
+  top:0;
+  left:0;
+  text-decoration:none;
+  display: inline-block;
+  padding:12px;
+  font-family:Calibri,sans-serif;
+}
+
+.logout2{
+  position:absolute;
+  background-color:green;
+  color:white;
+  top:47px;
+  left:0;
+  width:150px;
+  text-decoration:none;
+  display: inline-block;
+  padding:12px;
+  font-family:Calibri,sans-serif;
+
+
+}
+
+.logout:hover{
+  background-color:white;
+  color:red;
+}
+
+#overall_container{
+  width:1200px;
+  height:620px;
+  padding:5px;
+  margin:5px auto;
+  margin-bottom:0;
+  background-color:white;
+  overflow:scroll;
+  /*background-color:#046a33;*/
+}
+
+
+/*#overall_container > div*/#candidate_container{
+float:left;
+width:1150px;/*570*/
+padding:5px;
+height:230px;
+margin-top:3px;
+background-color:#eee;
+margin-left:9px;
+text-align: right;
+
+}
+
+#voting_div{
+  background-color:white;
+  float:left;
+  width:910px;/*330*/
+  padding:10px;
+  height:191px;
+  margin-left:5px;
+  margin-top:5px;
+  text-align: right;
+}
+
+#voting_div div{float:left;}
+
+#voting_div #candidate_details_div{
+  width:890px;/*200*/
+  padding:10px;
+  height:170px;
+  margin-right:5px;
+  background-color:white;
+
+}
+
+#inside_cand_div{
+  width:870px;
+  height:75px;
+  margin-top:25px;
+  margin-left:20px;
+  font-family:Calibri,sans-serif;
+  text-align:right;
+}
+
+#inside_cand_div h1,#inside_cand_div h2{margin:0;padding:0;}
+
+#inside_cand_div h1{font-size:30px;margin-bottom:5px;}
+#inside_cand_div h2{font-size:35px;color:#5d5a5a;}
+
+/*contains image on which voter clicks to vote*/
+/*#click_to_vote_div{*/
+  /*width:20px;*//*110*/
+ /* height:20px;*//*110*/
+ /* margin-top:47px;
+  margin-left:80px;
+}*/
+
+#overall_container div #image_div{
+float:left;
+width:200px;
+padding:5px;
+height:200px;
+margin-top:5px;
+background-color:grey;
+
+}
+
+/*styles for position statistics*/
+.position-title{
+  width:1138px;
+  /*height:180px;*/
+  overflow:auto;
+  padding:15px;
+  margin-left:9px;
+  float:left;
+  font-family:Calibri,sans-serif;
+  font-weight:bold;
+  background-color:white;
+}
+
+.position-title h2,.position-title h3{
+  padding:0;
+  margin:0;
+}
+
+.show-btn{
+   width:300px;
+  float:left;
+  display:block;
+  margin-top:2px;
+  padding:12px;
+  text-decoration:none;
+  font-size: 20px;
+  border:1px solid transparent;
+  font-family:Calibri,sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  background-color:orange;
+  color:white;
+
+}
+
+
+.show-btn:hover{
+  cursor:pointer;
+}
+/*styles for other positions results*/
+.other-positions{
+   width:1200px;
+  height:120px;
+  padding:5px;
+  margin:5px auto;
+  margin-bottom:0;
+  background-color:white;
+  overflow:auto;
+}
+
+.other-positions a{
+  width:200px;
+  float:left;
+  display:inline-block;
+  margin-left:5px;
+  margin-top:2px;
+  padding:12px;
+  text-decoration:none;
+  font-size: 20px;
+  border:1px solid transparent;
+  font-family:Calibri,sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  background:-webkit-linear-gradient(180deg,#0baac1,#0b8393);
+  background:-moz-linear-gradient(180deg,#0baac1,#0b8393);
+  background:-ms-linear-gradient(180deg,#0baac1,#0b8393);
+  background:-o-linear-gradient(180deg,#0baac1,#0b8393);
+  background:linear-gradient(180deg,#0baac1,#0b8393);
+  color:white;
+}
+
+.other-positions a:hover{
+   cursor:pointer;
+   background:-webkit-linear-gradient(130deg,#0baac1,#0b8393);
+  background:-moz-linear-gradient(130deg,#0baac1,#0b8393);
+  background:-ms-linear-gradient(130deg,#0baac1,#0b8393);
+  background:-o-linear-gradient(130deg,#0baac1,#0b8393);
+  background:linear-gradient(130deg,#0baac1,#0b8393);
+}
+
+
+.other-positions a:active{
+   cursor:pointer;
+   background:-webkit-linear-gradient(30deg,#0baac1,#0b8393);
+  background:-moz-linear-gradient(30deg,#0baac1,#0b8393);
+  background:-ms-linear-gradient(30deg,#0baac1,#0b8393);
+  background:-o-linear-gradient(30deg,#0baac1,#0b8393);
+  background:linear-gradient(30deg,#0baac1,#0b8393);
+}
+
+
+/*styles for form*/
+/*#index_form{
+width:500px;
+height:610px;
+padding:20px;
+margin:45px auto;
+margin-bottom:0;
+border-radius:6px;
+font-family: 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+background-color:#044d04;/*#3e3c3c;*/
+
+/*}*/
+
+/*#index_form h5{
+  padding:15px;
+  color:white;
+  margin:0;
+  text-align:center;
+  margin-bottom:5px;
+}
+
+#index_form input{
+  padding:10px;
+  width:470px;
+  border:1px solid #eee;
+  background-color:white;
+  color:black;
+  margin-bottom:10px;
+  border-radius:5px;
+  margin-left:5px;
+  font-size:17px;
+}
+
+#index_form input[type="text"]:hover{
+  border:1px solid red;
+}
+
+#index_form input[type="submit"]{
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    color:white;
+    margin-top:-15px;
+    font-size:15px;
+    text-shadow: 0 0 2px black;
+    height:50px;
+    border:1px solid transparent;
+    width:205px;
+
+}
+
+#index_form input[type="submit"]:hover{cursor:pointer;
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+
+}*/
+
+/*styles for footer*/
+footer{
+  height:20px;
+  width:250px;
+  margin:5px auto;
+  color:white;
+  font-family:Calibri,sans-serif;
+  font-size:15px;
+}

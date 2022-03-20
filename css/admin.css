@@ -1,0 +1,106 @@
+html,body{margin:0;padding:0;overflow:hidden;}
+body{
+  background-image:url(../images/resback.jpg);
+  background-size:100%;
+}
+
+/*styles for form*/
+#index_form{
+width:800px;
+height:480px;
+padding:20px;
+margin:120px auto;
+margin-bottom:0;
+border-radius:6px;
+font-family: 'wf_SegoeUILight', 'Segoe UI Light', 'Segoe UI', 'Segoe WP Light', 'Tahoma', Arial, Verdana, sans-serif;
+background-color:rgba(0,0,0,0.6)
+
+}
+
+#index_form h5{
+  padding:15px;
+  color:white;
+  margin:0;
+  text-align:center;
+  margin-bottom:25px;
+}
+
+#index_form input{
+  padding:10px;
+  width:360px;
+  border:1px solid #eee;
+  background-color:rgba(0,0,0,0.5);
+  color:white;
+  margin-bottom:20px;
+  border-radius:5px;
+  margin-left:5px;
+}
+
+#index_form input[type="password"]{
+  height:30px;
+}
+#index_form input[type="password"]:hover{
+  border:1px solid red;
+}
+
+#index_form input[type="submit"]{
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    background:linear-gradient(180deg,rgb(14, 150, 123),rgb(14, 121, 100));
+    color:white;
+    margin-bottom:15px;
+    font-size:15px;
+    text-shadow: 0 0 2px black;
+    height:50px;
+    border:1px solid transparent;
+    width:775px;
+
+}
+
+#index_form input[type="submit"]:hover{cursor:pointer;
+   background:-webkit-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-moz-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-ms-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:-o-linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+   background:linear-gradient(180deg,rgb(14, 150, 123),rgb(63, 147, 130));
+
+}
+
+#nav{
+  position:absolute;
+  top:0;
+  left:0;
+  font-family:Calibri,sans-serif;
+}
+
+#nav a{
+display:block;
+text-decoration:none;
+color:white;
+background-color:red;
+text-align:center;
+width:200px;
+}
+
+#nav a h4{padding:13px;margin:0;}
+
+#nav a:hover{
+  cursor:pointer;
+  background-color:white;
+  color:red;
+}
+
+/*styles for footer*/
+footer{
+  height:20px;
+  width:250px;
+  margin:10px auto;
+  color:white;
+  font-family:Calibri,sans-serif;
+  font-size:15px;
+}
+
+
+

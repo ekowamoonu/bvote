@@ -1,0 +1,44 @@
+body{
+  background-color:#901c06;
+}
+.heading h2{
+  color:white;
+  font-weight: bold;
+}
+
+.badge{
+  color:white;
+  background-color: white;
+  color:black;
+  font-size: 50px;
+  border-radius: 70px;
+}
+
+.display{
+  background-color: #340a02;
+  padding:40px;
+  height:300px;
+  overflow: hidden;
+}
+
+.display h1{
+  font-weight: bold;
+  font-size: 60px;
+  color:white;
+}
+
+.display h3{
+  color:white;
+}
+
+.md3{
+  margin-bottom: 15px;
+}
+
+.timer{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:#a8230b;
+}
